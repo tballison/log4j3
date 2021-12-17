@@ -25,7 +25,7 @@ public class Logger {
      * no-op. Seriously?!
      * @param msg
      */
-    public static synchronized void trace(String msg) {
+    public static void trace(String msg) {
         //no-op
     }
 
@@ -33,7 +33,7 @@ public class Logger {
      * no-op. Why do you think System.out was invented?
      * @param msg
      */
-    public static synchronized void debug(String msg) {
+    public static void debug(String msg) {
         //no-op
     }
 
